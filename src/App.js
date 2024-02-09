@@ -1,19 +1,15 @@
-import {Component} from "react";
+import { Component } from "react";
 import Navbar from "./component/navbar";
 import ScrollAnimation from "./component/navbar";
 
-
-
-class App extends Component{
-  render(){
-    return(
+class App extends Component {
+  render() {
+    return (
       <div>
-      <ScrollAnimation/>
+        <ScrollAnimation />
       </div>
-    
     );
   }
-
 }
 
 export default App;
